@@ -1,3 +1,43 @@
-baseURL = "http://example.org/"
+baseURL = "http://endot.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "endot"
+theme = "hello-friend"
+
+[params]
+  contentTypeName = "posts"
+  defaultTheme = "dark"
+  showMenuItems = 2
+  showReadingTime = false
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
+[languages]
+  [languages.en]
+    title = "endot"
+    subtitle = "eschew obfuscation (and espouse elucidation)"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "./nate --verbose"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "archives"
+        name = "Archives"
+        url = "/archives"

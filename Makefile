@@ -7,6 +7,10 @@ prep:
 site: prep
 	hugo
 
-.PHONY: dev
-dev: prep
+.PHONY: dev-local
+dev-local: prep
 	hugo server -D --bind 0.0.0.0 --baseURL http://192.168.1.105/
+
+.PHONY: dev-remote
+dev-remote: prep
+	hugo server -D --bind 0.0.0.0

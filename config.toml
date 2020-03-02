@@ -6,7 +6,7 @@ theme = "hello-friend"
 [params]
   contentTypeName = "posts"
   defaultTheme = "dark"
-  showMenuItems = 2
+  showMenuItems = 3
   showReadingTime = false
 
 [permalinks]
@@ -41,3 +41,7 @@ theme = "hello-friend"
         identifier = "archives"
         name = "Archives"
         url = "/archives"
+      [[languages.en.menu.main]]
+        identifier = "notes"
+        name = "Notes"
+        url = "/notes"

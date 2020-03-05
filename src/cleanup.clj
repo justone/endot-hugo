@@ -16,12 +16,16 @@
         parts (string/split contents #"---\n")
         [front body] (if (= 2 (count parts))
                        parts
-                       (drop 1 parts))]
+                       (drop 1 parts))
+        absolute-path (.getAbsolutePath file)]
     {:raw/file file
-     :raw/path (.getAbsolutePath file)
+     :raw/path absolute-path
      :raw/name (.getName file)
      :raw/body body
-     :raw/front front}))
+     :raw/front front
+     :raw/type (cond
+                 (string/includes? absolute-path "/notes/") :note
+                 :else :post)}))
 
 (defn parse-front
   [info]
@@ -99,6 +103,24 @@
         (update info :parsed/front dissoc :author))
     info))
 
+(defn has-slug?
+  [front]
+  (contains? front :slug))
+
+(defn name->slug
+  [name]
+  (second (re-matches #"\d{4}-\d{2}\-\d{2}-([^\.]+)\.(?:markdown|md)" name)))
+
+#_(name->slug "2008-01-27-on-organizing.markdown")
+
+(defn add-slug
+  [info]
+  (if (and (= :post (:raw/type info))
+           (not (has-slug? (:parsed/front info))))
+    (do (println "adding slug")
+        (update info :parsed/front assoc :slug (name->slug (:raw/name info))))
+    info))
+
 
 ;; Apply all the fixes
 
@@ -109,6 +131,7 @@
       (lowercase-tags)
       (add-seconds-to-date)
       (remove-author)
+      (add-slug)
       ))
 
 (defn markdown?
@@ -135,7 +158,7 @@
 ;; Main
 
 (defn -main
-  [& args]
+  [& _args]
   (println "Fixing markdown files in posts")
   (fix-markdown-files "content/posts/")
   (println "Fixing markdown files in notes")
@@ -145,22 +168,36 @@
 
 ;; Fiddling
 
-; (def target "content/posts/2014-07-05-my-note-taking-workflow.markdown")
-; (def target "content/posts/2011-12-04-remotecopy-copy-from-remote-terminals-into-your-local-clipboard.markdown")
-; (def target "content/posts/2012-02-12-git-subtree-tracking-made-easy.markdown")
-; (def target "content/posts/2014-01-01-git-annex-tips.markdown")
-; (def target "content/posts/2008-01-27-on-organizing.markdown")
-; (def target "../endot.org/source/_posts/2008-01-27-on-organizing.markdown")
+(defn legacy
+  [filename]
+  (str "content/posts/" filename))
 
+(defn migrated
+  [filename]
+  (str "../endot.org/source/_posts/" filename))
 
-#_(->> (load-post (io/file target))
+(defn fixed-front
+  [filename]
+  (->> (load-post (io/file filename))
        (parse-front)
        (apply-fixes)
        (:parsed/front)
-       (into {})
-       ; (save-post)
+       (into {})))
+
+(def current "2014-07-05-my-note-taking-workflow.markdown")
+; (def current "2011-12-04-remotecopy-copy-from-remote-terminals-into-your-local-clipboard.markdown")
+; (def current "2012-02-12-git-subtree-tracking-made-easy.markdown")
+; (def current "2014-01-01-git-annex-tips.markdown")
+; (def current "2008-01-27-on-organizing.markdown")
+
+
+#_(fixed-front (migrated current))
+#_(->> (load-post (io/file (migrated current)))
+       (parse-front)
+       :raw/type
        )
 
-#_(let [info (load-post (io/file target))]
-    (into {} (:parsed/front info)))
+(def current-note "../endot.org/source/notes/2014-01-10-using-datomic-with-riak/index.markdown")
 
+
+#_(fixed-front current-note)

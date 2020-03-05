@@ -3,12 +3,12 @@ x Add notes section
 x Convert categories to tags
 x Fix dates to include seconds
 x Remove author from front matter
-o Put slug into each file
+x Put slug into each file
 o Fix images
 o Port over projects page
 o Port over about page
 o Replace HTML with Markdown
-o Notes in archive list
+o Notes in archive list (missing)
 o Look through archives for issues
 
 After cut over:

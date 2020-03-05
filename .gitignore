@@ -1,2 +1,6 @@
 /public/
 /themes/hello-friend/
+
+.cpcache/
+.nrepl-port
+.socket-port

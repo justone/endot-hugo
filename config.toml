@@ -4,7 +4,7 @@ title = "endot"
 theme = "hello-friend"
 
 [params]
-  contentTypeName = "posts"
+  contentTypeName = "post"
   defaultTheme = "dark"
   showMenuItems = 4
   showReadingTime = false
@@ -13,7 +13,8 @@ theme = "hello-friend"
   unsafe = true
 
 [permalinks]
-  posts = "/:year/:month/:day/:slug/"
+  post = "/:year/:month/:day/:slug/"
+  note = "/notes/:filename/"
 
 [languages]
   [languages.en]

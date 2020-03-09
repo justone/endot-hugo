@@ -159,10 +159,10 @@
 
 (defn -main
   [& _args]
-  (println "Fixing markdown files in posts")
-  (fix-markdown-files "content/posts/")
-  (println "Fixing markdown files in notes")
-  (fix-markdown-files "content/notes/")
+  (println "Fixing markdown files in post")
+  (fix-markdown-files "content/post/")
+  (println "Fixing markdown files in note")
+  (fix-markdown-files "content/note/")
   (System/exit 0))
 
 

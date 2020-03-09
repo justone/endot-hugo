@@ -13,6 +13,7 @@ o Fix images
 o Notes in archive list (missing)
 o Look through archives for issues
 o Check for any drafts
+o Update about page with new picture and description
 
 After cut over:
 o Replace HTML with Markdown

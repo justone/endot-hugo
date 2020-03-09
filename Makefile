@@ -15,3 +15,13 @@ dev-local: prep
 .PHONY: dev-remote
 dev-remote: prep
 	hugo server -D --bind 0.0.0.0
+
+.PHONY: push-staging
+push-staging: prep
+	rm -rf public
+	./deploy.sh staging
+
+.PHONY: push-prod
+push-prod: prep
+	rm -rf public
+	./deploy.sh prod

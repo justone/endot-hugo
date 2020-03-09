@@ -5,6 +5,7 @@ prep:
 
 .PHONY: site
 site: prep
+	rm -rf public
 	hugo
 
 .PHONY: dev-local

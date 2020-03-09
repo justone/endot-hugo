@@ -8,11 +8,12 @@ x Flip to using unsafe markdown
 x Add 404 page
 x Port over projects page
 x Port over about page
-o Check out rss feed
-o Fix images
-o Notes in archive list (missing)
+x Fix images
+x Notes in archive list (missing)
+x Check for any drafts
+x Check out rss feed
+o Ensure legacy atom.xml is available
 o Look through archives for issues
-o Check for any drafts
 o Update about page with new picture and description
 
 After cut over:

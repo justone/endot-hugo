@@ -4,13 +4,15 @@ x Convert categories to tags
 x Fix dates to include seconds
 x Remove author from front matter
 x Put slug into each file
+x Flip to using unsafe markdown
 o Fix images
 o Port over projects page
 o Port over about page
-o Replace HTML with Markdown
 o Notes in archive list (missing)
 o Look through archives for issues
+o Check for any drafts
 
 After cut over:
+o Replace HTML with Markdown
 o Add a bit of blue for color
 o Make copyright smaller

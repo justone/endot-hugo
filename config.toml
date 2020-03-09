@@ -9,6 +9,9 @@ theme = "hello-friend"
   showMenuItems = 3
   showReadingTime = false
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
 

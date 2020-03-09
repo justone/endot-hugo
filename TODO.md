@@ -13,6 +13,7 @@ x Notes in archive list (missing)
 x Check for any drafts
 x Check out rss feed
 x Look through archives for issues
+x Add rss link
 o Ensure legacy atom.xml is available
 o Update about page with new picture and description
 

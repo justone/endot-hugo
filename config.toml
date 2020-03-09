@@ -6,7 +6,7 @@ theme = "hello-friend"
 [params]
   contentTypeName = "posts"
   defaultTheme = "dark"
-  showMenuItems = 3
+  showMenuItems = 4
   showReadingTime = false
 
 [markup.goldmark.renderer]
@@ -48,3 +48,7 @@ theme = "hello-friend"
         identifier = "notes"
         name = "Notes"
         url = "/notes"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"

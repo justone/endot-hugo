@@ -6,10 +6,10 @@ x Remove author from front matter
 x Put slug into each file
 x Flip to using unsafe markdown
 x Add 404 page
+x Port over projects page
+x Port over about page
 o Check out rss feed
 o Fix images
-o Port over projects page
-o Port over about page
 o Notes in archive list (missing)
 o Look through archives for issues
 o Check for any drafts

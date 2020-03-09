@@ -5,6 +5,7 @@ mkdir -p static
 cp -a ../endot.org/source/_posts/ content/posts
 cp -a ../endot.org/source/notes/ content/notes
 cp -a ../endot.org/source/uploads/ static/uploads
+rm -f content/posts/2014-11-08-talk-notes-mid-2014.markdown
 git add content/posts content/notes static/uploads
 git commit -m 'Initial copy from old blog'
 

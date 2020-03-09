@@ -14,6 +14,7 @@ x Check for any drafts
 x Check out rss feed
 x Look through archives for issues
 x Add rss link
+x Get rid of duplicate notes post
 o Ensure legacy atom.xml is available
 o Update about page with new picture and description
 

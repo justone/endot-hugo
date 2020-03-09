@@ -5,6 +5,8 @@ x Fix dates to include seconds
 x Remove author from front matter
 x Put slug into each file
 x Flip to using unsafe markdown
+x Add 404 page
+o Check out rss feed
 o Fix images
 o Port over projects page
 o Port over about page

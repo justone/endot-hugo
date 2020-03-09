@@ -12,8 +12,8 @@ x Fix images
 x Notes in archive list (missing)
 x Check for any drafts
 x Check out rss feed
+x Look through archives for issues
 o Ensure legacy atom.xml is available
-o Look through archives for issues
 o Update about page with new picture and description
 
 After cut over:

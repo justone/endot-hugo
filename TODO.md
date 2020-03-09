@@ -16,6 +16,7 @@ x Look through archives for issues
 x Add rss link
 x Get rid of duplicate notes post
 x Ensure legacy atom.xml is available
+o Move plural to singular content types
 o Update about page with new picture and description
 
 After cut over:

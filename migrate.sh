@@ -13,9 +13,7 @@ git commit -m 'Initial copy from old blog'
 git rm content/note/index.markdown
 git commit -m 'Remove note index'
 
-# Copy over about and projects pages
-cat ../endot.org/source/about/index.markdown | grep -v "date:" | grep -v "author:" > content/about.md
-git add content/about.md
+# Copy over projects page
 cat ../endot.org/source/projects/index.markdown | grep -v "date:" | grep -v "author:" > content/projects.md
 git add content/projects.md
 git commit -m 'Port over about and projects'

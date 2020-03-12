@@ -2,6 +2,7 @@ baseURL = "http://endot.org/"
 languageCode = "en-us"
 title = "endot"
 theme = "hello-friend"
+googleAnalytics = "UA-489101-1"
 
 [params]
   contentTypeName = "post"

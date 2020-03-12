@@ -18,7 +18,7 @@ x Get rid of duplicate notes post
 x Ensure legacy atom.xml is available
 x Move plural to singular content types
 x Update about page with new picture and description
-o Add google analytics, but only in prod
+x Add google analytics, but only in prod
 
 After cut over:
 o Replace HTML with Markdown

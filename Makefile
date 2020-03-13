@@ -2,6 +2,7 @@
 .PHONY: prep
 prep:
 	if [ ! -d "themes/hello-friend" ]; then git clone --branch endot git@github.com:justone/hugo-theme-hello-friend.git themes/hello-friend; fi
+	if [ ! -d "themes/hugo-atom-feed" ]; then git clone https://github.com/kaushalmodi/hugo-atom-feed.git themes/hugo-atom-feed; fi
 
 .PHONY: site
 site: prep

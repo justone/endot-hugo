@@ -1,8 +1,11 @@
 baseURL = "http://endot.org/"
 languageCode = "en-us"
 title = "endot"
-theme = "hello-friend"
+theme = ["hugo-atom-feed", "hello-friend"]
 googleAnalytics = "UA-489101-1"
+
+[outputs]
+  home = ["HTML", "RSS", "ATOM"]
 
 [params]
   contentTypeName = "post"

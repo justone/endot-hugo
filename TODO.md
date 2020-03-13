@@ -19,9 +19,12 @@ x Ensure legacy atom.xml is available
 x Move plural to singular content types
 x Update about page with new picture and description
 x Add google analytics, but only in prod
+o Include atom theme for old subscribers
 o Write changeover blog post
 
 After cut over:
 o Replace HTML with Markdown
 o Add a bit of blue for color
 o Make copyright smaller
+o Add related posts
+o Add JSON feed

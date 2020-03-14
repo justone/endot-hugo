@@ -1,16 +1,25 @@
 baseURL = "http://endot.org/"
 languageCode = "en-us"
 title = "endot"
-theme = "hello-friend"
+theme = ["hugo-atom-feed", "hello-friend"]
+googleAnalytics = "UA-489101-1"
+rssLimit = 10
+
+[outputs]
+  home = ["HTML", "RSS", "ATOM"]
 
 [params]
-  contentTypeName = "posts"
+  contentTypeName = "post"
   defaultTheme = "dark"
-  showMenuItems = 3
+  showMenuItems = 4
   showReadingTime = false
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [permalinks]
-  posts = "/:year/:month/:day/:slug/"
+  post = "/:year/:month/:day/:slug/"
+  note = "/notes/:filename/"
 
 [languages]
   [languages.en]
@@ -45,3 +54,7 @@ theme = "hello-friend"
         identifier = "notes"
         name = "Notes"
         url = "/notes"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"

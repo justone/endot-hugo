@@ -1,2 +1,8 @@
 /public/
 /themes/hello-friend/
+/themes/hugo-atom-feed/
+
+.cpcache/
+.nrepl-port
+.socket-port
+.rebel_readline_history

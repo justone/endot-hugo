@@ -20,8 +20,8 @@ git commit -m 'Port over about and projects'
 
 # Fix markdown files
 clojure -m cleanup
-git add content/post content/note static/uploads
-git commit -m 'After cleanup run'
+git add content/post content/note
+git commit -m 'Cleanup posts and notes'
 
 # Make content listings plural
 cat > content/post/_index.md <<EOF1

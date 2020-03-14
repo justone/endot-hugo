@@ -131,8 +131,7 @@
       (lowercase-tags)
       (add-seconds-to-date)
       (remove-author)
-      (add-slug)
-      ))
+      (add-slug)))
 
 (defn markdown?
   [file]
@@ -168,11 +167,11 @@
 
 ;; Fiddling
 
-(defn legacy
-  [filename]
-  (str "content/posts/" filename))
-
 (defn migrated
+  [filename]
+  (str "content/post/" filename))
+
+(defn legacy
   [filename]
   (str "../endot.org/source/_posts/" filename))
 
@@ -191,6 +190,7 @@
 ; (def current "2008-01-27-on-organizing.markdown")
 
 
+#_(fixed-front (legacy current))
 #_(fixed-front (migrated current))
 #_(->> (load-post (io/file (migrated current)))
        (parse-front)

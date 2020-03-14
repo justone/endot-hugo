@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Talk Notes: Raft - The Understandable Distributed Protocol"
-date: 2014-01-24 21:03
+title: 'Talk Notes: Raft - The Understandable Distributed Protocol'
+date: '2014-01-24 21:03:00'
 comments: true
 sharing: true
 footer: true
 tags:
 - notes
+slug: null
 ---
 
 # Summary

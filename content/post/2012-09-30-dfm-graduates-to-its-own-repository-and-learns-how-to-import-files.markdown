@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "dfm graduates to its own repository and learns how to import files"
-date: 2012-09-30 14:43
+title: dfm graduates to its own repository and learns how to import files
+date: '2012-09-30 14:43:00'
 comments: true
-categories: 
+tags:
 - dfm
-- Code
+- code
+slug: dfm-graduates-to-its-own-repository-and-learns-how-to-import-files
 ---
 
 I recently split dfm out into its own [git repository](https://github.com/justone/dfm).  This should make it easier to add new features and grow the test suite without cluttering up the original [dotfiles repository](https://github.com/justone/dotfiles).  I'll sync dfm over at regular intervals, so anyone who wants to keep up to date by merging with master will be ok.

@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-01-29 13:37:04'
 layout: post
 slug: on-motivation
 status: publish
 title: On Motivation
 wordpress_id: '32'
-categories:
-- Lifehack
+tags:
+- lifehack
 ---
 
 Now that I've started organizing myself into discrete lists of projects and contexts, I feel the weight of remembering all those tasks lifting from my mind.  But even as I began this endeavor, I quickly ran into the problem of motivation. I had planned on a longer entry about this, but today I found another blog post that <a href="http://pigpog.com/node/1462">echoed my thoughts exactly</a>.

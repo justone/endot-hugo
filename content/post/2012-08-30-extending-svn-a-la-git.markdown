@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Extending svn, &agrave; la git"
-date: 2012-08-30 12:29
+title: Extending svn, &agrave; la git
+date: '2012-08-30 12:29:00'
 comments: true
-categories: 
-- Code
+tags:
+- code
 - dotfiles
+slug: extending-svn-a-la-git
 ---
 
 [Subversion](http://subversion.apache.org/) is a useful tool.  It does most of what I need it to do, but sometimes there are missing features.  Sometimes, it's something that git does natively.  Other times, it's a repeated command sequence.  It's easy to write small scripts to do these new things, but they never feel like they fit in with the rest of the commands.

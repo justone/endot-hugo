@@ -1,17 +1,12 @@
 ---
-author: nate
 date: '2008-10-06 22:46:57'
 layout: post
 slug: ndwall-an-attempt-to-learn-iphone-development
 status: publish
 title: 'NDWall: an attempt to learn iPhone development'
 wordpress_id: '57'
-categories:
-- Programming
 tags:
-- iphone
-- ndwall
-- objectivec
+- programming
 ---
 
 The best way to learn a new programming language/environment is to make something practical with it.

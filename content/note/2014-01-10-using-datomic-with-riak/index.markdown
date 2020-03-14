@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Talk Notes: Using Datomic with Riak"
-date: 2014-01-10 21:03
+title: 'Talk Notes: Using Datomic with Riak'
+date: '2014-01-10 21:03:00'
 comments: true
 sharing: true
 footer: true
 tags:
 - notes
+slug: null
 ---
 
 # Summary

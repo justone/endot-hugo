@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2009-01-23 11:41:50'
 layout: post
 slug: ndwall-milestone-2-missed
 status: publish
 title: 'NDWall Milestone 2: Missed'
 wordpress_id: '65'
-categories:
-- Programming
+tags:
+- programming
 ---
 
 Well, I didn't get much of a chance to blog about the NDWall milestone 2 before it flew past this last Saturday.  Dave and I agreed a few weeks ago that milestone 2 would include the following features:

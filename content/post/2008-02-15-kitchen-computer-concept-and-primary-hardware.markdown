@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-02-15 01:07:27'
 layout: post
 slug: kitchen-computer-concept-and-primary-hardware
 status: publish
 title: 'Kitchen Computer: Concept and Primary Hardware'
 wordpress_id: '18'
-categories:
-- Kitchen Computer
+tags:
+- kitchen computer
 ---
 
 For while now I've wanted to put a computer in the kitchen.  Here begins the process of actually realizing that goal.

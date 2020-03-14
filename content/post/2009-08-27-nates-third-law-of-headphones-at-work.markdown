@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2009-08-27 16:01:04'
 layout: post
 slug: nates-third-law-of-headphones-at-work
 status: publish
 title: Nate's Third Law of Headphones at Work
 wordpress_id: '97'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 Observed many times and today is rampant proof:

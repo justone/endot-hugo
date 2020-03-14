@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2007-11-19 20:33:11'
 layout: post
 slug: whats-your-walk-score
 status: publish
 title: What's your Walk Score?
 wordpress_id: '28'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 From <a href="http://www.joelonsoftware.com/items/2007/11/19.html" target="_blank">this post</a> on the venerable <a href="http://www.joelonsoftware.com/" target="_blank">Joel on Software</a>:

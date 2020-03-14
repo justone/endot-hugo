@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "remotecopy - copy from remote terminals into your local clipboard"
-date: 2011-12-04 14:56
+title: remotecopy - copy from remote terminals into your local clipboard
+date: '2011-12-04 14:56:00'
 comments: true
-categories: 
-- Code
-- Programming
+tags:
+- code
+- programming
 - remotecopy
+slug: remotecopy-copy-from-remote-terminals-into-your-local-clipboard
 ---
 
 # Problem

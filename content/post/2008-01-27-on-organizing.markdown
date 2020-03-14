@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-01-27 21:00:08'
 layout: post
 slug: on-organizing
 status: publish
 title: On Organizing
 wordpress_id: '31'
-categories:
-- Lifehack
+tags:
+- lifehack
 ---
 
 One of my resolutions for the new year (I'll list them all later), is to get organized.  I know that "get organized" is a wonderfully vague goal, but for me it just means that I want to do the following three things:

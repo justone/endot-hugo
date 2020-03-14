@@ -1,14 +1,13 @@
 ---
-author: nate
 date: '2010-03-14 13:19:59'
 layout: post
 slug: mounting-usb-ext3-partitions-on-opensolaris
 status: publish
 title: Mounting USB ext3 partitions on OpenSolaris
 wordpress_id: '137'
-categories:
-- Computers
-- Home
+tags:
+- computers
+- home
 ---
 
 <strong>[Update]</strong> It looks like this only really applies to USB flash drives.  When I mounted my actual backup drive, it showed up in prtpart.  This post was written using the root drive on my old backup server, which is a SanDisk Cruzer flash drive.

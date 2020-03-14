@@ -1,14 +1,13 @@
 ---
-author: nate
 date: '2011-05-14 21:33:30'
 layout: post
 slug: sick
 status: publish
 title: Sick
 wordpress_id: '229'
-categories:
-- Misc
-- Really Random
+tags:
+- misc
+- really random
 ---
 
 I'm sick today.

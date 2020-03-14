@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "envbox: keeping secret environment variables secure"
+title: 'envbox: keeping secret environment variables secure'
 date: 2017-03-12 21:30:53 +0000
 comments: true
 published: true
-categories:
-- Computers
-- CLI
+tags:
+- computers
+- cli
+slug: envbox
 ---
 
 In my day to day work and evening and weekend side work, I do most almost all

@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2007-09-18 08:47:31'
 layout: post
 slug: magsafe
 status: publish
 title: MagSafe?
 wordpress_id: '17'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 So, I got a new Macbook Pro, and I must say that the MagSafe power cable is neat.

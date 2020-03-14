@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2011-10-14 17:47:25'
 layout: post
 slug: jquery-conference-boston
 status: publish
 title: 'jQuery Conference: Boston'
 wordpress_id: '314'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 A couple weeks ago, I had the privilege of crossing the country to attend the <a href="http://events.jquery.org/2011/boston/">jQuery conference in Boston</a>.  It was a unique opportunity for me.  While we use jQuery extensively at work, I haven't done much with it lately.  However, since we have a few projects coming up that will be web focused, so it was a timely occurrence.  I went with my good friend and coworker David (I'd link to his blog, but he doesn't have one yet, *cough*) and another coworker, Erin, who had been to Boston before.

@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "dfm tip: untracked binaries"
-date: 2012-01-22 15:38
+title: 'dfm tip: untracked binaries'
+date: '2012-01-22 15:38:00'
 comments: true
-categories: 
+tags:
 - dfm
+slug: dfm-tip-untracked-binaries
 ---
 
 ## The problem

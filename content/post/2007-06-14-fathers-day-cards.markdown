@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2007-06-14 19:02:52'
 layout: post
 slug: fathers-day-cards
 status: publish
 title: Father's Day Cards
 wordpress_id: '5'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 I seem to run into this problem every year.  I guess my relationship with my dad is different from the one that most kids had.  I didn't wreak havoc on the house, sneak out late at night or throw big parties behind his back.  Conversely, I don't worship my dad, holding him in such high esteem that it's as if he's a deity of some kind, I and don't have an overbearing urge to validate who I am when I give a gift.  Also, my dad is not a bumbling idiot or addicted to sports or an absent workaholic and his life does not revolve around beer.  If any of these happened to me, the large majority of father's day cards would be appropriate.

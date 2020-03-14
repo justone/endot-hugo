@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Host-specific bash configuration"
-date: 2012-08-22 21:08
+title: Host-specific bash configuration
+date: '2012-08-22 21:08:00'
 comments: true
-categories: 
+tags:
 - dfm
-- Code
+- code
+slug: host-specific-bash-configuration
 ---
 
 Well, I was going to write about a nifty bit of bash to help with ssh-agent in tmux, but [someone beat me to it](http://naydichev.com/blog/2012/08/22/beating-nate-to-the-punch/), so I'll just write up his idea instead.

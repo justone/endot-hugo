@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Easy development with git_backup"
-date: 2012-05-27 14:48
+title: Easy development with git_backup
+date: '2012-05-27 14:48:00'
 comments: true
-categories: 
-- Code
-- Programming
+tags:
+- code
+- programming
+slug: easy-development-with-git-backup
 ---
 
 I've been using [git_backup](/2009/09/27/git_backup-pl-a-simple-script-to-backup-with-git/) to back up the websites I run for quite a while now.  It works well and I only need to scan the daily cron emails to see if the backup went well or if there were any odd files changed the day before.

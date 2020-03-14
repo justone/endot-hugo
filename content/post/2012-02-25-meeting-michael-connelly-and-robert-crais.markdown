@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Meeting Michael Connelly and Robert Crais"
-date: 2012-02-25 22:44
+title: Meeting Michael Connelly and Robert Crais
+date: '2012-02-25 22:44:00'
 comments: true
-categories: 
-- Random
+tags:
+- random
+slug: meeting-michael-connelly-and-robert-crais
 ---
 
 Tonight, I had the privilege of seeing one of my favorite authors, [Michael Connelly](http://www.michaelconnelly.com/), at a session where he and [Robert Crais](http://www.robertcrais.com/) discussed the effect that [Raymond Chandler](http://en.wikipedia.org/wiki/Raymond_Chandler) had on their careers and on the crime fiction genre.  It was a part of Santa Monica's [Citywide Reads 2012](http://smpl.org/Citywide_Reads_2012.aspx) program celebrating Chandler's work.  My sister, who introduced me to Michael Connelly in the first place, found out about it on his facebook fan page and came all the way out here to go with me.

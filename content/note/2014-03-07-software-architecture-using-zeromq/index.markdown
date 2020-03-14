@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Talk Notes: Software Architecture using ZeroMQ"
-date: 2014-03-07 16:00
+title: 'Talk Notes: Software Architecture using ZeroMQ'
+date: '2014-03-07 16:00:00'
 comments: true
 sharing: true
 footer: true
 tags:
 - notes
+slug: null
 ---
 
 # Summary

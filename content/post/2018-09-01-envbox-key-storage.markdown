@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Envbox: Secure Key Storage"
+title: 'Envbox: Secure Key Storage'
 date: 2018-09-01 13:04:08 -0700
 comments: true
-categories:
-- CLI
-- Computers
+tags:
+- cli
+- computers
+slug: envbox-key-storage
 ---
 
 I wrote a few months ago about [envbox](https://github.com/justone/envbox), and

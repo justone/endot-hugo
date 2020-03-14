@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Introducing Talk Notes"
+title: Introducing Talk Notes
 date: 2014-01-31 21:57:59 +0000
 comments: true
-categories: 
-- Notes
+tags:
+- notes
+slug: introducing-talk-notes
 ---
 
 In the course of my work and my online reading and research, I often come across videos of talks that I want to watch.  I rarely take the time to watch those videos, mostly because of the time commitment; I usually only have a few minutes to spare.

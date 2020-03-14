@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2007-11-03 00:23:48'
 layout: post
 slug: pthpasteboard-the-lazy-mans-memory
 status: publish
 title: 'PTHPasteboard: the lazy man''s memory'
 wordpress_id: '23'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 I've wanted to write about this for a while, so here goes...

@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "git-annex tips"
-date: 2014-01-01 13:14
+title: git-annex tips
+date: '2014-01-01 13:14:00'
 comments: true
-categories: 
-- Computers
+tags:
+- computers
 - git-annex
+slug: git-annex-tips
 ---
 
 Last time I [posted about git-annex](/2013/01/04/managing-backups-with-git-annex/), I introduced it and described the basics of my set up.  Over the past year, I've added quite a bit of data to my main git-annex.  It manages just over 100G of data for me across 9 repositories.  Here's a few bits of information that may be useful to others considering git-annex (or who are already knee deep in).

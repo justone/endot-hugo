@@ -1,14 +1,13 @@
 ---
-author: nate
 date: '2009-09-27 14:24:58'
 layout: post
 slug: git_backup-pl-a-simple-script-to-backup-with-git
 status: publish
 title: git_backup.pl - a simple script to backup with git
 wordpress_id: '110'
-categories:
-- Code
-- Programming
+tags:
+- code
+- programming
 ---
 
 For a while now, I've been backing up the few WordPress blogs that I run for various people with a very simple script that followed this algorithm:

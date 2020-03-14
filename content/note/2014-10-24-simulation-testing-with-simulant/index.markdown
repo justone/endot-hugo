@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Talk Notes: Simulation Testing with Simulant"
-date: 2014-10-24 11:00
+title: 'Talk Notes: Simulation Testing with Simulant'
+date: '2014-10-24 11:00:00'
 comments: true
 sharing: true
 footer: true
 tags:
 - notes
+slug: null
 ---
 
 # Summary

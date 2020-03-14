@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2010-04-22 21:45:37'
 layout: post
 slug: the-worlds-drinkable-water
 status: publish
 title: The world's drinkable water
 wordpress_id: '162'
-categories:
-- Data
+tags:
+- data
 ---
 
 I'm a big fan of data visualization.  Something about taking huge swaths of numbers and reducing them down to a set of conclusions or messages is very intriguing.

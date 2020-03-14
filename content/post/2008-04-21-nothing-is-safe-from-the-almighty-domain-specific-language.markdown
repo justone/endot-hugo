@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-04-21 19:43:28'
 layout: post
 slug: nothing-is-safe-from-the-almighty-domain-specific-language
 status: publish
 title: Nothing is safe from the almighty Domain Specific Language
 wordpress_id: '37'
-categories:
-- Programming
+tags:
+- programming
 ---
 
 What <a href="http://rubyonrails.com/">Ruby on Rails</a> is to web programming,

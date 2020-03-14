@@ -1,14 +1,13 @@
 ---
-author: nate
 date: '2010-03-14 13:18:09'
 layout: post
 slug: my-mini-thumper-is-online
 status: publish
 title: My mini thumper is online!
 wordpress_id: '146'
-categories:
-- Computers
-- Home
+tags:
+- computers
+- home
 ---
 
 After basically copying <a href="http://serialized.net/2009/02/the-littlest-thumper-opensolaris-nas-on-an-msi-wind-pc/">my friend's exact specifications</a>, I now have a little server at home with 1.5T of mirrored disk space.  By and large it was a straightforward process, with the following interesting tidbits.

@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Talk Notes: Inventing on Principle"
-date: 2014-02-21 16:54
+title: 'Talk Notes: Inventing on Principle'
+date: '2014-02-21 16:54:00'
 comments: true
 sharing: true
 footer: true
 tags:
 - notes
+slug: null
 ---
 
 # Summary

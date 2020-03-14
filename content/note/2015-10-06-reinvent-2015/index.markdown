@@ -1,11 +1,12 @@
 ---
 layout: page
-title: "Notes: re:Invent 2015"
-date: 2015-10-06 17:00
+title: 'Notes: re:Invent 2015'
+date: '2015-10-06 17:00:00'
 sharing: true
 footer: true
 tags:
 - notes
+slug: null
 ---
 
 # Links

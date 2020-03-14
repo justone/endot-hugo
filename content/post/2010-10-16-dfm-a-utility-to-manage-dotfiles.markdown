@@ -1,15 +1,14 @@
 ---
-author: nate
 date: '2010-10-16 20:50:34'
 layout: post
 slug: dfm-a-utility-to-manage-dotfiles
 status: publish
 title: dfm - a utility to manage dotfiles
 wordpress_id: '202'
-categories:
-- Code
-- Computers
-- Programming
+tags:
+- code
+- computers
+- programming
 - dfm
 ---
 

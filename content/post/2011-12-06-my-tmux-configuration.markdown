@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "My tmux configuration"
-date: 2011-12-06 20:58
+title: My tmux configuration
+date: '2011-12-06 20:58:00'
 comments: true
-categories: 
-- Programming
+tags:
+- programming
 - tmux
+slug: my-tmux-configuration
 ---
 
 **Update:** I refined my configuration.  See it [here](/2014/03/20/my-tmux-configuration-refined/).

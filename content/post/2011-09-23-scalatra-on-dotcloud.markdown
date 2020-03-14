@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2011-09-23 17:24:56'
 layout: post
 slug: scalatra-on-dotcloud
 status: publish
 title: Scalatra on Dotcloud
 wordpress_id: '274'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 I couldn't easily find information on this, so here's a summary for those that go after me.

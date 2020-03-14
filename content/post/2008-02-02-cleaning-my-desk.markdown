@@ -1,14 +1,13 @@
 ---
-author: nate
 date: '2008-02-02 18:42:32'
 layout: post
 slug: cleaning-my-desk
 status: publish
 title: Cleaning my desk
 wordpress_id: '33'
-categories:
-- Lifehack
-- Pictures
+tags:
+- lifehack
+- pictures
 ---
 
 Just cleaning up the part of my brain that's outside my head.

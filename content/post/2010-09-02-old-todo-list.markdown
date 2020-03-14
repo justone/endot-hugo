@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2010-09-02 18:44:24'
 layout: post
 slug: old-todo-list
 status: publish
 title: Old todo list
 wordpress_id: '189'
-categories:
-- Really Random
+tags:
+- really random
 ---
 
 In trying to finish transitioning from my old backup drive to my new <a href="/2010/03/14/my-mini-thumper-is-online/">backup mini thumper</a>, I ran across a file with this content:

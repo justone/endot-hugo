@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Git subtree tracking made easy"
-date: 2012-02-12 16:33
+title: Git subtree tracking made easy
+date: '2012-02-12 16:33:00'
 comments: true
-categories: 
-- Code
-- Computers
+tags:
+- code
+- computers
 - dfm
+slug: git-subtree-tracking-made-easy
 ---
 
 Last year, when I made my [list of pros and cons comparing git subtrees with submodules](/2011/05/18/git-submodules-vs-subtrees-for-vim-plugins/), one of the downsides listed for subtrees was that it's hard to figure out where the code came from originally.
@@ -112,8 +113,4 @@ From https://github.com/rupa/z
  * branch            master     -> FETCH_HEAD
 git fetch using:  https://github.com/rupa/z.git master
 Merge made by recursive.
- .bashrc.d/z/z.sh |   49 +++++++++++++++++++++++++++++++++++++++++++------
- 1 files changed, 43 insertions(+), 6 deletions(-)
-```
-
-Alright, that's all I have time for today.  Enjoy.
+ .bashrc.d/z/z.sh |   49 +++++++++++++++++++++++++++++++++++++++++++---

@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-09-09 08:21:59'
 layout: post
 slug: mozilla-ubiquity
 status: publish
 title: Mozilla Ubiquity
 wordpress_id: '54'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 Wow. Wow. Wow.  <a href="http://labs.mozilla.com/2008/08/introducing-ubiquity/">Ubiquity</a>.  Like <a href="http://en.wikipedia.org/wiki/Quicksilver_(software)">quicksilver</a> for your web browser.

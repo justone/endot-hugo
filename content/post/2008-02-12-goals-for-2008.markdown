@@ -1,14 +1,13 @@
 ---
-author: nate
 date: '2008-02-12 21:01:39'
 layout: post
 slug: goals-for-2008
 status: publish
 title: Goals for 2008
 wordpress_id: '34'
-categories:
-- Blog
-- Lifehack
+tags:
+- blog
+- lifehack
 ---
 
 As promised <a href="/2008/01/27/on-organizing/">earlier</a>, here are the goals I have set before myself to complete by the end of 2008:

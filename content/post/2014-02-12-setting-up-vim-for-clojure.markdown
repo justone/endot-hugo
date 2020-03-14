@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Setting up Vim for Clojure"
-date: 2014-02-12 20:19:15
+title: Setting up Vim for Clojure
+date: 2014-02-12T20:19:15Z
 comments: true
-categories: 
-- Programming
-- Clojure
-- Vim
+tags:
+- programming
+- clojure
+- vim
+slug: setting-up-vim-for-clojure
 ---
 
 I've been experimenting with [Clojure][1] lately.  A few of my coworkers had begun the discovery process as well, so I suggested that we have a weekly show-and-tell, because a little accountability and audience can turn wishes into action.

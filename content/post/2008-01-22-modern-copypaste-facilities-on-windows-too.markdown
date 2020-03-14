@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-01-22 12:52:06'
 layout: post
 slug: modern-copypaste-facilities-on-windows-too
 status: publish
 title: Modern Copy/Paste facilities on Windows too
 wordpress_id: '30'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 A little while ago, I wrote about my favorite utility <a href="/2007/11/03/pthpasteboard-the-lazy-mans-memory/">PTHPasteboard</a>, and I wondered if there was a similar facility for those in the Windows world.

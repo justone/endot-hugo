@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2011-09-23 17:44:40'
 layout: post
 slug: dfm-presentation-at-la-pm
 status: publish
 title: dfm presentation at LA.pm
 wordpress_id: '288'
-categories:
-- Presentations
+tags:
+- presentations
 - dfm
 ---
 

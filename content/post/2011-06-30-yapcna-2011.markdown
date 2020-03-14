@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2011-06-30 07:54:03'
 layout: post
 slug: yapcna-2011
 status: publish
 title: YAPC::NA 2011
 wordpress_id: '270'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 I'm about to finish up my time here in beautiful North Carolina.  The rental car is returned and I'm waiting for my plane to arrive and take me back to the west coast.  It's been a week chock full of great information.  It's a good thing that the conference was only three days long though, my brain is tired.

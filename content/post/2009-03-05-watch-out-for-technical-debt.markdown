@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2009-03-05 20:32:56'
 layout: post
 slug: watch-out-for-technical-debt
 status: publish
 title: Watch out for technical debt
 wordpress_id: '73'
-categories:
-- Programming
+tags:
+- programming
 ---
 
 I'm always looking for ways to improve myself as a programmer.  It usually involves something fun, but after reading <a href="http://www.codinghorror.com/blog/archives/001230.html">this post</a>, I think my new area of improvement is to stop increasing my technical debt.

@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2009-08-24 21:10:12'
 layout: post
 slug: new-slr-stage-1-blurry-backgrounds
 status: publish
 title: 'New SLR Stage 1: Blurry Backgrounds'
 wordpress_id: '90'
-categories:
-- Photography
+tags:
+- photography
 ---
 
 In an attempt to pursue a hobby that does not involve a heap of monitor staring, I decided to get more serious about photography.  I've always enjoyed taking pictures, but I wanted to get deeper into the process.  So, I saved up some money and purchased a used Canon 30D from a friend back in March.  In the months that followed, I noticed myself passing through several stages as I got used to photography as a hobby rather than just image capture.  In retrospect, I thought they were rather funny.  I'll share them over the next few blog posts.<!--more-->The first of those stages is an acute fascination with shallow depth of field.

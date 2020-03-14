@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Graphing presentation times with R/ggplot2"
-date: 2012-05-10 19:45
+title: Graphing presentation times with R/ggplot2
+date: '2012-05-10 19:45:00'
 comments: true
-categories: 
-- R
+tags:
+- r
+slug: graphing-presentation-times-with-r-slash-ggplot2
 ---
 
 I've been kicking around this bit of R code for the last couple of months, and so I thought I would share it.

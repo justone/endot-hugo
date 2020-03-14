@@ -1,14 +1,13 @@
 ---
-author: nate
 date: '2011-05-18 20:49:02'
 layout: post
 slug: git-submodules-vs-subtrees-for-vim-plugins
 status: publish
 title: Git submodules vs. subtrees for vim plugins
 wordpress_id: '234'
-categories:
-- Code
-- Computers
+tags:
+- code
+- computers
 - dfm
 ---
 

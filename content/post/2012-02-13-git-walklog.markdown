@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "git-walklog"
-date: 2012-02-13 12:22
+title: git-walklog
+date: '2012-02-13 12:22:00'
 comments: true
-categories: 
-- Code
+tags:
+- code
 - git
+slug: git-walklog
 ---
 
 Most of the time, when looking at history in a git repository, I am most interested in changes at a higher level than an individual commit.  From time to time, however, I really want to look at each commit on its own.  So, I created [git-walklog](https://github.com/justone/dotfiles-personal/blob/personal/bin/git-walklog).  For each commit in the range specified, it:

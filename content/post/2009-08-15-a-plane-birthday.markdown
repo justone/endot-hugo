@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2009-08-15 23:59:20'
 layout: post
 slug: a-plane-birthday
 status: publish
 title: A Plane Birthday
 wordpress_id: '85'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 Today was a great day.  Today Sara and I celebrated my birthday.  She planned the whole thing out, so all I had to do was go along for the ride.

@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2007-11-05 22:53:50'
 layout: post
 slug: whats-next-laptops-cars
 status: publish
 title: What's next? Laptops? Cars?
 wordpress_id: '26'
-categories:
-- Pictures
+tags:
+- pictures
 ---
 
 As seen in a Vons in Riverside.  All models of iPod are represented as well as digital cameras and accessories for all. It was quite sophisticated, with a touch screen menu and everything.

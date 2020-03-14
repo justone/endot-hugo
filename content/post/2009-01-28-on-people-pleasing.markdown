@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2009-01-28 11:13:14'
 layout: post
 slug: on-people-pleasing
 status: publish
 title: On People Pleasing
 wordpress_id: '67'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 A great quote from one of <a href="http://loudthinking.com/">DHH</a>'s latest <a href="http://loudthinking.com/posts/36-work-on-what-you-use-and-share-the-rest">posts</a>:

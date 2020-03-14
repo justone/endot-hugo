@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-06-10 20:37:58'
 layout: post
 slug: goals-for-2008-500-miles-and-counting
 status: publish
 title: 'Goals for 2008: 500 miles and counting'
 wordpress_id: '41'
-categories:
-- Lifehack
+tags:
+- lifehack
 ---
 
 As evidenced by my <a href="http://www.runnerplus.com/people/justone">runnerplus page</a>, I've reached one of my <a href="/2008/02/12/goals-for-2008/">goals for 2008</a>: I ran 500 miles.  It happened right after the last long training run before the marathon.  I definitely didn't expect to hit this milestone so soon in the year, but training for a marathon and logging more than 30 miles a week certainly got me there.

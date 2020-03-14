@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-08-14 13:31:25'
 layout: post
 slug: on-abstraction-layers
 status: publish
 title: On Abstraction Layers
 wordpress_id: '52'
-categories:
-- Programming
+tags:
+- programming
 ---
 
 One of the things that's been on my mind recently has been optimizing my work life so that I can either spend less time doing the same stuff or accomplish more in the same amount of time.

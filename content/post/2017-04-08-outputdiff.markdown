@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "outputdiff: easily spot differences in command output"
+title: 'outputdiff: easily spot differences in command output'
 date: 2017-04-08 20:45:22 +0000
 comments: true
-categories: 
-- Computers
-- CLI
+tags:
+- computers
+- cli
+slug: outputdiff
 ---
 
 When I'm in front of a computer, I spend much of my time at the command line,

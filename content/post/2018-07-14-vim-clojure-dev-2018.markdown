@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Developing Clojure in Vim (2018 edition)"
+title: Developing Clojure in Vim (2018 edition)
 date: 2018-07-14 11:46:19 -0700
 comments: true
-categories:
-- Programming
-- Clojure
-- Vim
+tags:
+- programming
+- clojure
+- vim
+slug: vim-clojure-dev-2018
 ---
 
 When I wrote about developing Clojure in Vim for the [first time][1], I was still early in my journey.  For years, I'd only been able to tinker with Clojure in my free time and I was never able to really use it for anything large.  Well, now I'm 5 or so months into using it full time and I'm really enjoying the development experience.  So I thought I'd update my previous post with what my Vim configuration looks like now.

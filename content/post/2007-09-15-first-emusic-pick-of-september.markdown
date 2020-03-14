@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2007-09-15 23:48:47'
 layout: post
 slug: first-emusic-pick-of-september
 status: publish
 title: First eMusic pick of September
 wordpress_id: '16'
-categories:
-- eMusic
+tags:
+- emusic
 ---
 
 Well, I waited too long to get my picks for August and they expired on me.  Rats.

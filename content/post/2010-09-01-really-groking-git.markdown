@@ -1,14 +1,13 @@
 ---
-author: nate
 date: '2010-09-01 00:04:15'
 layout: post
 slug: really-groking-git
 status: publish
 title: Really Groking Git
 wordpress_id: '174'
-categories:
-- Computers
-- Programming
+tags:
+- computers
+- programming
 ---
 
 I've been using git for a while now, and I'm just getting to the point where I can think in it.

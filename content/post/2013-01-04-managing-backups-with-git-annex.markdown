@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Managing backups with git-annex"
-date: 2013-01-04 20:32
+title: Managing backups with git-annex
+date: '2013-01-04 20:32:00'
 comments: true
-categories: 
-- Computers
+tags:
+- computers
 - git-annex
+slug: managing-backups-with-git-annex
 ---
 
 ## My Situation

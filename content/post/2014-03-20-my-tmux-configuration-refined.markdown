@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "My tmux configuration, refined"
-date: 2014-03-20 07:37:19
+title: My tmux configuration, refined
+date: 2014-03-20T07:37:19Z
 comments: true
-categories: 
-- Programming
+tags:
+- programming
 - tmux
+slug: my-tmux-configuration-refined
 ---
 
 When I wrote about tmux for the [first time](/2011/12/06/my-tmux-configuration/), I was just getting into the idea of nesting sessions.  I ran a local tmux session that wrapped remote tmux sessions for more than a year before I switched it up again.

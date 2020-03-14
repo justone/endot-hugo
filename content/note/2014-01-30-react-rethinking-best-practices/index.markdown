@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Talk Notes: React - Rethinking Best Practices"
-date: 2014-01-30 21:03
+title: 'Talk Notes: React - Rethinking Best Practices'
+date: '2014-01-30 21:03:00'
 comments: true
 sharing: true
 footer: true
 tags:
 - notes
+slug: null
 ---
 
 # Summary

@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-03-28 17:01:17'
 layout: post
 slug: remember-thou-wast-once-a-noob
 status: publish
 title: Remember, thou wast once a noob
 wordpress_id: '36'
-categories:
-- Programming
+tags:
+- programming
 ---
 
 I was handling a customer support request today and it read something like this:

@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-08-20 19:59:56'
 layout: post
 slug: 10958-days-old-and-counting
 status: publish
 title: 10,958 days old and counting...
 wordpress_id: '53'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 <a href="http://www.flickr.com/photos/19501186@N00/2783154312/"><img src="http://farm4.static.flickr.com/3030/2783154312_fef7f9374d.jpg" border="0" alt="All the cards I got for my 30th birthday." /></a>

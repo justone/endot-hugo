@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Talk Notes: February 2014"
+title: 'Talk Notes: February 2014'
 date: 2014-02-28 17:46:53 +0000
 comments: true
-categories: 
-- Notes
+tags:
+- notes
+slug: talk-notes-february-2014
 ---
 
 I was out of town two of the Fridays this month, so I was only able to get two talks in:

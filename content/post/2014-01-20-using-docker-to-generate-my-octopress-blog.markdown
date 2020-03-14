@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Using Docker to generate my Octopress blog"
+title: Using Docker to generate my Octopress blog
 date: 2014-01-20 15:09:14 +0000
 comments: true
-categories: 
-- Computers
+tags:
+- computers
 - docker
-- Blog
+- blog
+slug: using-docker-to-generate-my-octopress-blog
 ---
 
 When I originally [set up Octopress](/2011/11/05/wordpress-to-octopress/), I set it up on my Mac laptop using rvm, as recommended at the time.  It worked very well for me until just a few minutes after my last post, when I decided to sync with the upstream changes.

@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Seeing the Shuttle"
-date: 2013-01-13 13:24
+title: Seeing the Shuttle
+date: '2013-01-13 13:24:00'
 comments: true
-categories: 
-- Space
+tags:
+- space
+slug: seeing-the-shuttle
 ---
 
 ## Launch

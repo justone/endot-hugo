@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2009-02-20 17:55:04'
 layout: post
 slug: saying-good-bye-to-one-of-my-favorite-people
 status: publish
 title: Saying good-bye to one of my favorite people
 wordpress_id: '69'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 Today was the last day of work for one of my co-workers.  It's weird to call him that, he was a friend for a long time before he was a co-worker, but it's the co-working part of our relationship that's coming to an end.

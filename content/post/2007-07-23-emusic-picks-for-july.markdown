@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2007-07-23 21:50:10'
 layout: post
 slug: emusic-picks-for-july
 status: publish
 title: eMusic picks for July
 wordpress_id: '11'
-categories:
-- eMusic
+tags:
+- emusic
 ---
 
 A while ago, one of my <a href="http://serialized.net/" target="_blank">coworkers</a> told me about <a href="http://emusic.com/" target="_blank">eMusic</a>, and I've been a subscriber ever since.  I've found some great music over the past year, so I thought I'd start sharing what I download.

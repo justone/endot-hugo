@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "A script to ease SCP use"
-date: 2013-06-08 21:44
+title: A script to ease SCP use
+date: '2013-06-08 21:44:00'
 comments: true
-categories: 
-- Programming
+tags:
+- programming
 - remotecopy
+slug: a-script-to-ease-scp-use
 ---
 
 Since I work on remote systems all the time, I use SCP repeatedly to transfer files around.  One of the more cumbersome tasks is specifying the remote file or directory location.

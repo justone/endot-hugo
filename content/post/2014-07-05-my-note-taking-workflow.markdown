@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "My note-taking workflow"
+title: My note-taking workflow
 date: 2014-07-05 19:56:13 -0700
 comments: true
-categories: 
-- Computers
-- Notes
+tags:
+- computers
+- notes
+slug: my-note-taking-workflow
 ---
 
 A few people have asked about my note-taking workflow and it's been quite useful to me, so I thought I would describe what works for me.

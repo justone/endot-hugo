@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2009-01-19 21:34:51'
 layout: post
 slug: electronics-nerdery
 status: publish
 title: Electronics Nerdery
 wordpress_id: '64'
-categories:
-- Electronics
+tags:
+- electronics
 ---
 
 I've been meaning to blog about this for about two months, so here's a bit of background.

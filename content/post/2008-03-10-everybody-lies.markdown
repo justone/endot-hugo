@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2008-03-10 08:53:09'
 layout: post
 slug: everybody-lies
 status: publish
 title: Everybody Lies
 wordpress_id: '35'
-categories:
-- Programming
+tags:
+- programming
 ---
 
 With insight into why people don't read manuals and why features sell products:

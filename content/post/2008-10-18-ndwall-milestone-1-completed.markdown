@@ -1,17 +1,12 @@
 ---
-author: nate
 date: '2008-10-18 15:53:15'
 layout: post
 slug: ndwall-milestone-1-completed
 status: publish
 title: 'NDWall Milestone 1: completed'
 wordpress_id: '59'
-categories:
-- Programming
 tags:
-- iphone
-- ndwall
-- objectivec
+- programming
 ---
 
 Just after 1:30PM today, I finished up my implementation of the first milestone of the <a href="/2008/10/06/ndwall-an-attempt-to-learn-iphone-development/">NDWall project</a>.  The best part was trying to figure out to construct the request to post new messages.  Here are a few screen shots of the app:

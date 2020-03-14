@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Remotecopy, two years later"
-date: 2013-06-09 14:36
+title: Remotecopy, two years later
+date: '2013-06-09 14:36:00'
 comments: true
-categories: 
+tags:
 - remotecopy
+slug: remotecopy-two-years-later
 ---
 
 It's been over two years since I wrote remotecopy and I still use it every day.

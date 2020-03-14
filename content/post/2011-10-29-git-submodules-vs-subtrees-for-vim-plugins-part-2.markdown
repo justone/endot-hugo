@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2011-10-29 18:53:01'
 layout: post
 slug: git-submodules-vs-subtrees-for-vim-plugins-part-2
 status: publish
 title: Git submodules vs. subtrees for vim plugins, part 2
 wordpress_id: '328'
-categories:
-- R
+tags:
+- r
 ---
 
 When I talked about <a href="/2011/05/18/git-submodules-vs-subtrees-for-vim-plugins/">submodules vs. subtrees before</a>, one of the things I listed as a benefit for subtrees was the speed of the initial clone.  I'd written a few scripts to help me benchmark the two, and with a little extra time that I have this weekend, I thought I'd share the data.

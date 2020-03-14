@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Talk Notes: Clojure core.async"
-date: 2014-02-14 17:03
+title: 'Talk Notes: Clojure core.async'
+date: '2014-02-14 17:03:00'
 comments: true
 sharing: true
 footer: true
 tags:
 - notes
+slug: null
 ---
 
 # Summary

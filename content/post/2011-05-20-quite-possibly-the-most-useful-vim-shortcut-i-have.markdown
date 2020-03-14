@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2011-05-20 11:14:02'
 layout: post
 slug: quite-possibly-the-most-useful-vim-shortcut-i-have
 status: publish
 title: Quite possibly the most useful vim shortcut I have
 wordpress_id: '249'
-categories:
-- Misc
+tags:
+- misc
 ---
 
 I use these every single day:

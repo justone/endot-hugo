@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Talk Notes: Designing Front End Applications with core.async"
-date: 2014-08-22 11:00
+title: 'Talk Notes: Designing Front End Applications with core.async'
+date: '2014-08-22 11:00:00'
 comments: true
 sharing: true
 footer: true
 tags:
 - notes
+slug: null
 ---
 
 # Summary

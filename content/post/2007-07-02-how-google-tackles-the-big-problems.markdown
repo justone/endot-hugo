@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2007-07-02 17:07:09'
 layout: post
 slug: how-google-tackles-the-big-problems
 status: publish
 title: How Google tackles the big problems.
 wordpress_id: '9'
-categories:
-- Programming
+tags:
+- programming
 ---
 
 Via a co-worker, here's a nice overview of the technologies that Google created to deal with the mounds of data it houses:

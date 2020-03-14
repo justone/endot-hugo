@@ -1,13 +1,12 @@
 ---
-author: nate
 date: '2011-10-05 14:26:42'
 layout: post
 slug: dfm-updates-uninstall-and-updatemergeandinstall
 status: publish
 title: 'dfm updates: uninstall and updatemergeandinstall'
 wordpress_id: '298'
-categories:
-- Code
+tags:
+- code
 - dfm
 ---
 

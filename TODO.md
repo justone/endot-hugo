@@ -20,7 +20,7 @@ x Move plural to singular content types
 x Update about page with new picture and description
 x Add google analytics, but only in prod
 x Include atom theme for old subscribers
-o Write changeover blog post
+x Write changeover blog post
 
 After cut over:
 o Replace HTML with Markdown

@@ -19,7 +19,7 @@ git add content/projects.md
 git commit -m 'Port over about and projects'
 
 # Fix markdown files
-clojure -m cleanup
+bb -cp .:src -m cleanup
 git add content/post content/note
 git commit -m 'Cleanup posts and notes'
 

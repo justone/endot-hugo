@@ -9,7 +9,7 @@ wordpress_id: '195'
 Here's a list of projects that I've created.  They have varying levels of
 completion and documentation.
 
-<h2>dfm - the dotfiles manager</h2>
+<h2 id="dfm">dfm - the dotfiles manager</h2>
 
 Dfm is a utility that manages dotfiles. It makes it easy to install (and
 uninstall) your dotfiles on new servers as well as fetch and merge changes from
@@ -21,7 +21,7 @@ what directory you are in.
 * Blog posts: ['dfm' archives](/category/dfm/)
 * Starter repo: <https://github.com/justone/dotfiles>
 
-<h2>dockviz - visualize Docker data</h2>
+<h2 id="dockviz">dockviz - visualize Docker data</h2>
 
 Dockviz is a utility for visualizing various Docker data.  It is primarily used
 to show the hierarchy of image layers.  It was initially part of Docker core
@@ -29,7 +29,7 @@ but was split out a couple years ago.
 
 * Homepage: <https://github.com/justone/dockviz>
 
-<h2>pmb - the personal message bus</h2>
+<h2 id="pmb">pmb - the personal message bus</h2>
 
 The personal message bus is a system for bringing disparate agents together
 securely for personal productivity.  The first use case was copying remote data
@@ -38,7 +38,7 @@ notification.
 
 * Homepage: <https://github.com/justone/pmb>
 
-<h2>skeg - simple docker development environments</h2>
+<h2 id="skeg">skeg - simple docker development environments</h2>
 
 Skeg greatly simplifies the process of isolating your development environment
 in a Docker container.  It looks something like a lightweight vagrant.
@@ -46,7 +46,7 @@ in a Docker container.  It looks something like a lightweight vagrant.
 * Homepage: <http://skeg.io/>
 * Source: <https://github.com/skegio/skeg>
 
-<h2>holen - utility fetcher</h2>
+<h2 id="holen">holen - utility fetcher</h2>
 
 Holen is a utility that fetches utilities, somewhat like Homebrew, but focused
 on static binaries and Docker images that contain a single utility.  Plus, it
@@ -54,7 +54,7 @@ works on Linux and Windows too.
 
 * Homepage: <https://github.com/holen-app/holen>
 
-<h2>envbox - secure, easy access to secret environment variables</h2>
+<h2 id="envbox">envbox - secure, easy access to secret environment variables</h2>
 
 Envbox is a utility that makes it easy to manage environment variables like
 GITHUB_TOKEN.  There are quite a few tools that use these kinds of variables,

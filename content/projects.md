@@ -18,7 +18,7 @@ what directory you are in.
 
 * Homepage: <https://github.com/justone/dfm>
 * Documentation: <https://github.com/justone/dotfiles/wiki>
-* Blog posts: ['dfm' archives](/category/dfm/)
+* Blog posts: [posts tagged 'dfm'](/tags/dfm/)
 * Starter repo: <https://github.com/justone/dotfiles>
 
 <h2 id="dockviz">dockviz - visualize Docker data</h2>

@@ -9,6 +9,17 @@ wordpress_id: '195'
 Here's a list of projects that I've created.  They have varying levels of
 completion and documentation.
 
+<h2 id="bbpods">Babashka Pods</h2>
+
+[Babashka](https://github.com/babashka/babashka) is a version of Clojure that
+starts up fast and is well suited for command line scripting. Pods are
+additional functionality that Babashka can use like a library. Here are the
+pods I've created. They also function as standalone utilities that are usable
+without Babashka.
+
+* Brisk: <https://github.com/justone/brisk> - This pod provides access to the [nippy](https://github.com/ptaoussanis/nippy) library, a fast serialization library.
+* Tabl: <https://github.com/justone/tabl> - This pod provides access to the [fancy](https://github.com/chbrown/fancy-clojure/) and [doric](https://github.com/joegallo/doric) libraries, for printing tables of data.
+
 <h2 id="dfm">dfm - the dotfiles manager</h2>
 
 Dfm is a utility that manages dotfiles. It makes it easy to install (and

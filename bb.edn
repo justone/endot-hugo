@@ -7,7 +7,9 @@
   dev {:depends [prep clean]
        :task tasks/dev}
   deploy:staging {:depends [prep clean]
-                  :task (tasks/push "staging")}
+                  :doc "Build and deploy to staging."
+                  :task (tasks/deploy "staging")}
   deploy:prod {:depends [prep clean]
-               :task (tasks/push "prod")}
+               :doc "Build and deploy to production."
+               :task (tasks/deploy "prod")}
   }}

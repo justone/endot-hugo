@@ -1,7 +1,10 @@
 /public/
 /themes/hello-friend/
 /themes/hugo-atom-feed/
+/resources/
+.hugo_build.lock
 
+.clj-kondo/
 .cpcache/
 .nrepl-port
 .socket-port

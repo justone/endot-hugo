@@ -2,7 +2,7 @@ baseURL = "http://endot.org/"
 languageCode = "en-us"
 title = "endot"
 theme = ["hugo-atom-feed", "hello-friend"]
-googleAnalytics = "UA-489101-1"
+googleAnalytics = "G-DFJSK1VGMB"
 rssLimit = 10
 
 [outputs]

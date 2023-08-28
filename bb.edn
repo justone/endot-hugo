@@ -1,0 +1,15 @@
+{:paths ["bb"]
+ :tasks
+ {prep {:task tasks/prep}
+  clean {:task tasks/clean}
+  site {:depends [prep clean]
+        :task tasks/build}
+  dev {:depends [prep clean]
+       :task tasks/dev}
+  deploy:staging {:depends [prep clean]
+                  :doc "Build and deploy to staging."
+                  :task (tasks/deploy "staging")}
+  deploy:prod {:depends [prep clean]
+               :doc "Build and deploy to production."
+               :task (tasks/deploy "prod")}
+  }}

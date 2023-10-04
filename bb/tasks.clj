@@ -23,7 +23,7 @@
 (defn build
   "Build site with hugo."
   [& args]
-  (process/shell (cons "hugo-extended" args)))
+  (process/shell (cons "hugo" args)))
 
 (defn dev
   "Start hugo dev server. Provide a location as the lone argument."
@@ -31,7 +31,7 @@
   (let [dev-loc (get-in locations [:dev (keyword location)])]
     (when-not dev-loc
       (throw (ex-info "need remote host id" {:babashka/exit 1})))
-    (process/shell "hugo-extended server -D --bind 0.0.0.0 -p 1313 -F --baseURL" dev-loc)))
+    (process/shell "hugo server -D --bind 0.0.0.0 -p 1313 -F --baseURL" dev-loc)))
 
 (defn deploy
   "Build and push site. Provide a location as the lone argument."

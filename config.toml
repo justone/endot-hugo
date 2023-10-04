@@ -23,19 +23,20 @@ rssLimit = 10
 
 [languages]
   [languages.en]
-    title = "endot"
-    subtitle = "eschew obfuscation (and espouse elucidation)"
-    keywords = ""
-    copyright = "Nate Jones"
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "Jan 2, 2006"
-    dateFormatList = "Jan 2, 2006"
+    [languages.en.params]
+      title = "endot"
+      subtitle = "eschew obfuscation (and espouse elucidation)"
+      keywords = ""
+      copyright = "Nate Jones"
+      menuMore = "Show more"
+      writtenBy = "Written by"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      minuteReadingTime = "min read"
+      dateFormatSingle = "Jan 2, 2006"
+      dateFormatList = "Jan 2, 2006"
 
     [languages.en.params.logo]
       logoText = "./nate --verbose"

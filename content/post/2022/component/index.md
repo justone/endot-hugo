@@ -1,6 +1,6 @@
 ---
 title: "Still Component After All These Years"
-date: 2022-10-19T16:39:54-07:00
+date: 2023-10-19T16:39:54-07:00
 slug: still-component
 tags:
 - programming

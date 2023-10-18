@@ -53,6 +53,42 @@ After opening this file up, I start a Babashka repl with `bb nrepl-server` in a 
 
 From here, it's normal Clojure development; creating small composable functions, combining them together to accomplish my task, rapidly iterating as I learn more about what I want to do.
 
+For the most part, I rely on Babashka's built-in namespaces. In the rare times I need something else, I don't need to convert the script into a "real" project. Instead, I rely on one of two techniques.
+
+The first is to use `babashka.deps`, like this:
+
+```
+(require '[babashka.deps :as deps])
+(deps/add-deps '{:deps {org.clj-commons/pretty {:mvn/version "2.2"}}})'
+```
+
+It's rather amazing that you can add any compatible library in-line like this. It's out of the realm of imagination in the old Bashiverse.
+
+The second way I've reached out for other functionality is by including other Babashka scripts. This is one reason why I have a namespace declaration at the top (the other being that it's tidier).
+
+For instance, I have a script called `bbts` that will take incoming EDN data and look for any map key of timestamp and convert its value into a human readable date/time. This is super useful as I'm not able to parse milliseconds directly.
+
+```
+$ cat sample.edn
+{:mulog/timestamp 1697642960678}
+{:mulog/data {:timestamp 1697642960678}}
+
+$ cat sample.edn | bbts
+{:mulog/timestamp "2023-10-18 8:29:20.67 AM"}
+{:mulog/data {:timestamp "2023-10-18 8:29:20.67 AM"}}
+```
+
+I recently was writing another script that had timestamp data and wanted to use `bbts`'s `humanize-timestamps` function. So I added this snippet:
+
+```
+(load-file (-> *file* fs/real-path fs/parent (fs/path "bbts") fs/file))
+(require '[bbts])
+
+(comment
+  (def records ...)
+  (map bbts/humanize-timestamps records))
+```
+
 # Larger scripts
 
 Talk about bb-scripts and why I use it.

@@ -27,9 +27,19 @@ The problem with scripting in Bash is that while it's great for running several 
 
 There's also a whole class of things that are possible, but very arcane in Bash, such as maps and arrays.
 
-Then there's the problem of code reuse. In Bash,
+Then there's the problem of code reuse. In Bash, you can source any other file you want, but that's only possible after looking up how to find a file relative to the current script, how to make functions, and that doesn't address relying on libraries that are not on your local system.
 
-# Quick, self-contained scripts
+# The time "after"
+
+Some time in 2019, GraalVM was really starting to be a viable option for compiling Clojure programs. I remember using Borkdude's clj-kondo and jet, and then in August came the first versions of Babashka. I was instantly drawn to it and the idea of a fast-starting Clojure dialect.
+
+I'd been a fan of Clojure for a while by then, and I really wanted to be able to use it for my command line scripts. My first attempts at this were with [planck][2] and [lumo][3], which are self-hosted ClojureScript runtimes. They satisfied the fast-startup requirement, but they bottomed out in the Javascript ecosystem and it's reliance on a single thread and call-backs. I have a few small experiments from back then, but it never caught on because it was difficult to call programs and read or write data, something that comes up rather often in command line scripts.
+
+Babashka was different. Because it was based on the Java ecosystem, I could use spit and slurp as well as the clojure.java.io namespace to access the filesystem. I
+
+Then, new Babashka-specific namespaces were added to make these things even easier. `babashka.process` for running other programs, `babashka.fs` for filesystem operations, `babashka.deps` for dyanmically adding dependencies, and many more. These namespaces drew Babashka closer to it's hosted ecosystem (the terminal), and made it more powerful in the process.
+
+## Quick, self-contained scripts
 
 Most of my scripts are of this variety. They are usually fewer than a couple dozen lines and are written in the fit of frustrated energy that occurs when there's a difference between what I need and the tools in front of me.
 
@@ -89,7 +99,7 @@ I recently was writing another script that had timestamp data and wanted to use 
   (map bbts/humanize-timestamps records))
 ```
 
-# Larger scripts
+## Larger scripts
 
 Talk about bb-scripts and why I use it.
 
@@ -97,9 +107,11 @@ Talk about bb-scripts and why I use it.
 
 Talk about the `lib.script.alpha` namespace and how it can make small scripts even easier to write.
 
-I did a [talk a couple years ago][2] about using Babashka on the command line and I covered some of this same information.
+I did a [talk a couple years ago][4] about using Babashka on the command line and I covered some of this same information.
 
 [1]: https://github.com/justone/dotfiles-personal/tree/personal/bin
-[2]: https://www.youtube.com/watch?v=tc4ROCJYbm0
+[2]: https://planck-repl.org/
+[3]: https://github.com/anmonteiro/lumo
+[4]: https://www.youtube.com/watch?v=tc4ROCJYbm0
 
 [^1]: Quite a bit earlier in my career, the language would have been Perl, but that knowledge left my brain several years ago.

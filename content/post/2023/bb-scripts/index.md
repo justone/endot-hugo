@@ -35,9 +35,7 @@ Some time in 2019, GraalVM was really starting to be a viable option for compili
 
 I'd been a fan of Clojure for a while by then, and I really wanted to be able to use it for my command line scripts. My first attempts at this were with [planck][2] and [lumo][3], which are self-hosted ClojureScript runtimes. They satisfied the fast-startup requirement, but they bottomed out in the Javascript ecosystem and it's reliance on a single thread and call-backs. I have a few small experiments from back then, but it never caught on because it was difficult to call programs and read or write data, something that comes up rather often in command line scripts.
 
-Babashka was different. Because it was based on the Java ecosystem, I could use spit and slurp as well as the clojure.java.io namespace to access the filesystem. I
-
-Then, new Babashka-specific namespaces were added to make these things even easier. `babashka.process` for running other programs, `babashka.fs` for filesystem operations, `babashka.deps` for dyanmically adding dependencies, and many more. These namespaces drew Babashka closer to it's hosted ecosystem (the terminal), and made it more powerful in the process.
+Babashka was different. Because it was based on the Java ecosystem, I could use `spit` and `slurp` as well as the `clojure.java.io` namespace to access the filesystem. I could execute other programs with `clojure.java.shell`. But it didn't stop there. Babashka also had command line options to automatically parse and emit data (`-i`, `-o`, `-I`, `-O`) which made it easier to write scripts that fit into pipelines. And there were Babashka-specific namespaces that made terminal and scripting tasks easier: `babashka.process` for running other programs, `babashka.fs` for filesystem operations, `babashka.deps` for dyanmically adding dependencies, and many more. These namespaces drew Babashka closer to it's hosted ecosystem (the terminal), and made it more powerful in the process.
 
 ## Quick, self-contained scripts
 

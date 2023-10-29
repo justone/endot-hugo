@@ -14,19 +14,21 @@ I thought it might be useful to describe my approach to writing Babashka scripts
 
 # Bashing scripts
 
-In the great dark ages before the Babashkanaissance, I would usually reach for Bash[^1] to write small scripts. These scripts are the glue that fits between built-in commands and my development needs. I've accumulated [quite a few of these over the years][1], and they've greatly enhanced my ability to get things done quickly.
+In the time before the Babashkanaissance, I would usually reach for Bash[^1] to write small automation scripts. These scripts are the glue that fits between built-in commands and my development needs. I've accumulated quite a few of these over the years, and they've greatly enhanced my ability to get things done quickly.
 
-The problem with scripting in Bash is that while it's great for running several commands in a row, any time I wanted to do any of the following, I would have to open my web browser and go search for examples:
+The best thing about Bash is that it's quick to get started. Throw a few commands in a file and you have something useful. For me, the problem with Bash was that any time I wanted to do any of the following, I would have to open my web browser and go search for examples:
 
-* Any conditional test, like for file existence or if a variable is defined
+* Any conditional test (does this file exist? is this variable set?)
 * Conditionals themselves (how many brackets? do I have to quote the variables?)
-* Extract common code out into a function
-* Loop over a dynamic list
-* Process command line arguments and provide a `--help` output
+* Extract common code out into a function (how do I pass arguments? what about return values?)
+* Collect up data and loop over it (basic syntax of a loop? how to terminate early?)
+* Process command line arguments and provide a `--help` output (long and short options? defaults and required arguments?)
 
-There's also a whole class of things that are possible, but very arcane in Bash, such as maps and arrays.
+Then there's a whole class of things that are possible, but rather arcane in Bash, such as maps, arrays, and string substitution.
 
-Then there's the problem of code reuse. In Bash, you can source any other file you want, but that's only possible after looking up how to find a file relative to the current script and how to make functions, and that doesn't address relying on libraries that are not on your local system.
+Most of these things would probably become second nature if I wrote Bash more often, but most of my time is usually spent working on a larger application in a different language. I think the issue is that the syntax and semantics of the language are enough different from any language I've spent a serious amount of time with (Java, Python, Go, Clojure, etc), that I can't tie any knowledge I learn to another set of information in my head.
+
+So, I was stuck re-learning it each time I wrote a little script. It was a relatively small price to pay for the benefit of these small scripts.
 
 # Bringing some Clojure to the problem
 
@@ -36,7 +38,7 @@ I'd been a fan of Clojure for a while by then, and I really wanted to be able to
 
 Babashka was different. Because it was based on the Java ecosystem, I could use `spit` and `slurp` as well as the `clojure.java.io` namespace to access the filesystem. I could execute other programs with `clojure.java.shell`. But it didn't stop there. Babashka also had command line options to automatically parse and emit data (`-i`, `-o`, `-I`, `-O`) which made it easier to write scripts that fit into pipelines. And there were Babashka-specific namespaces that made terminal and scripting tasks easier: `babashka.process` for running other programs, `babashka.fs` for filesystem operations, `babashka.deps` for dyanmically adding dependencies, and many more. These namespaces drew Babashka closer to it's hosted ecosystem (the terminal), and made it more powerful in the process.
 
-My scripts tend to take one of two paths toward completion: either as a single file or in my script incubator.
+As Babashka grew in power, I reached for it more and more when I needed a small script or tool to enhance my environment. These days, my scripts tend to take one of two paths toward completion: either as a single file or in my script incubator.
 
 # Quick, self-contained scripts
 

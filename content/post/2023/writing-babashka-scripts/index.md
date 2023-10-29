@@ -143,7 +143,7 @@ For example, here's a very simple script to add two numbers. As you can see, alm
 (def cli-opts
   [["-h" "--help" "Show help."]
    ["-a" "--arg1 arg1" "First number to add." :missing "Must supply first number."]
-   ["-b" "--arg2 arg1" "Second number to add." :missing "Must supply second number."]])
+   ["-b" "--arg2 arg2" "Second number to add." :missing "Must supply second number."]])
 
 (when (= *file* (System/getProperty "babashka.file"))
   (let [{:keys [options errors summary]} (cli/parse-opts *command-line-args* cli-opts)
@@ -184,7 +184,7 @@ Here's the same script using `lib.script.alpha`. There is some boilerplate to pu
            SCRIPT_NAME -a 3 -b 2"
    :cli-options [["-h" "--help" "Show help."]
                  ["-a" "--arg1 arg1" "First number to add." :missing "Must supply first number."]
-                 ["-b" "--arg2 arg1" "Second number to add." :missing "Must supply second number."]]})
+                 ["-b" "--arg2 arg2" "Second number to add." :missing "Must supply second number."]]})
 
 (defn add
   [{{:keys [arg1 arg2]} :options}]
@@ -208,7 +208,7 @@ Examples:
 options:
   -h, --help       Show help.
   -a, --arg1 arg1  First number to add.
-  -b, --arg2 arg1  Second number to add.
+  -b, --arg2 arg2  Second number to add.
 
 $ ./better_adder.clj -a 3 -b 3
 The sum is 6.

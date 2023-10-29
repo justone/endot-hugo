@@ -172,7 +172,7 @@ Here's the same script using `lib.script.alpha`. There is some boilerplate to pu
 (ns better-adder
   (:require [babashka.deps :as deps]))
 
-(deps/add-deps '{:deps {io.github.justone/bb-scripts {:sha "13b61bea51da4c0e7634ba37131a3f42ed2a4a76"}}})
+(deps/add-deps '{:deps {io.github.justone/bb-scripts {:sha "80cec8c7ba6efd857456ca0270525b17e3252b04"}}})
 (require '[lib.script.alpha :as sa])
 
 (def main-opts

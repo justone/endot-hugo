@@ -115,13 +115,15 @@ The advantages of using `bb-scripts` over the single file approach are:
 * Tests are straightforward to specify and find, and can be run in both Babashka and Clojure.
 * Fiddle code can be kept outside of the main namespaces.
 
+It's nice to have the regular Clojure development experience and then end up with a quick-running script. See the repository's [README][9] for more information about using it for yourself.
+
 # Combining power with ease of use
 
 One thing I've been experimenting with lately is using some of the `bb-scripts` libraries in my single-file scripts.
 The reason I want to do this is that I want my scripts to be well behaved citizens of the terminal. Every script should respond to `--help` and exit with a non-zero code if the arguments are invalid.
 With single-file scripts, this results in needing to implement the same boilerplate handling in each script. It's much easier in the `bb-scripts` incubator as there are shared namespaces to handle this.
 
-So, to bring the shared namespaces over, I created the [`lib.script.alpha`][9] namespace. It bundles together argument parsing and reporting into a single function.
+So, to bring the shared namespaces over, I created the [`lib.script.alpha`][10] namespace. It bundles together argument parsing and reporting into a single function.
 
 For example, here's a very simple script to add two numbers. As you can see, almost half the script is devoted to command line argument handling.
 
@@ -232,6 +234,7 @@ Enjoy.
 [6]: /2023/08/07/highlight/
 [7]: https://github.com/justone/bb-scripts
 [8]: https://github.com/justone/bb-scripts/blob/master/README.md#set-up
-[9]: https://github.com/justone/bb-scripts/blob/master/src/lib/script/alpha.clj
+[9]: https://github.com/justone/bb-scripts/blob/master/README.md#development-workflow
+[10]: https://github.com/justone/bb-scripts/blob/master/src/lib/script/alpha.clj
 
 [^1]: Quite a bit earlier in my career, the language would have been Perl, but that knowledge left my brain several years ago.

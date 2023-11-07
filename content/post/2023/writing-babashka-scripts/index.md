@@ -1,6 +1,6 @@
 ---
 title: "Developing Babashka Scripts"
-date: 2023-10-27T12:55:14-07:00
+date: 2023-11-07T17:55:14-07:00
 slug: writing-babashka-scripts
 tags:
 - programming

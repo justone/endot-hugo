@@ -36,7 +36,7 @@ Some time in 2019, GraalVM was really starting to be a viable option for compili
 
 I'd been a fan of Clojure for a while by then, and I really wanted to be able to use it for my command line scripts. My first attempts at this were with [planck][2] and [lumo][3], which are self-hosted ClojureScript runtimes. They satisfied the fast-startup requirement, but they bottomed out in the Javascript ecosystem and it's reliance on a single thread and callback-driven I/O. I have a few small experiments from back then, but it never caught on because it was difficult to call programs and read or write data, something that comes up rather often in command line scripts.
 
-Babashka was different. Because it was based on the Java ecosystem, I could use `spit` and `slurp` as well as the `clojure.java.io` namespace to access the filesystem. I could execute other programs with `clojure.java.shell`. But it didn't stop there. Babashka also had command line options to automatically parse and emit data (`-i`, `-o`, `-I`, `-O`) which made it easier to write scripts that fit into pipelines. And there were Babashka-specific namespaces that made terminal and scripting tasks easier: `babashka.process` for running other programs, `babashka.fs` for filesystem operations, `babashka.deps` for dyanmically adding dependencies, and many more. These namespaces drew Babashka closer to it's hosted ecosystem (the terminal), and made it more powerful in the process.
+Babashka was different. Because it was based on the Java ecosystem, I could use `spit` and `slurp` as well as the `clojure.java.io` namespace to access the filesystem. I could execute other programs with `clojure.java.shell`. But it didn't stop there. Babashka also had command line options to automatically parse and emit data (`-i`, `-o`, `-I`, `-O`) which made it easier to write scripts that fit into pipelines. And there were Babashka-specific namespaces that made terminal and scripting tasks easier: `babashka.process` for running other programs, `babashka.fs` for filesystem operations, `babashka.deps` for dynamically adding dependencies, and many more. These namespaces drew Babashka closer to it's hosted ecosystem (the terminal), and made it more powerful in the process.
 
 As Babashka grew in power, I reached for it more and more when I needed a small script or tool to enhance my environment. These days, my scripts tend to take one of two paths toward completion: either as a single file or in my script incubator.
 
@@ -56,7 +56,7 @@ Here's a template of what I usually start off with:
 ```
 
 The important pieces here are:
-1. Shebang line to elevate this program into Babashka
+1. Shebang[^2] line to elevate this program into Babashka
 2. The namespace declaration, ready to add any of Babashka's built-in libraries
 3. The "one little trick" that allows this file to be loaded into a REPL without executing it.
 
@@ -77,7 +77,7 @@ It's rather amazing that you can add any compatible library in-line like this. I
 
 The second way I've reached out for other functionality is by including other Babashka scripts. This is one reason why I have a namespace declaration at the top (the other being that it's tidier).
 
-For instance, I have a script called [`bbts`][5] that will take incoming EDN data and look for any map key of timestamp and convert its value into a human readable date/time. This is super useful as I'm not able to parse milliseconds directly.
+For instance, I have a script called [`bbts`][5] that will take incoming EDN data and look for any map key of timestamp and convert its value into a human readable date/time. This is super useful as my brain is not able to parse milliseconds directly.
 
 ```shell
 $ cat sample.edn
@@ -99,6 +99,10 @@ Well, I recently was writing another script that had timestamp data and wanted t
   (def records ...)
   (map bbts/humanize-timestamps records))
 ```
+
+I think a side-effect of using Clojure is that all of its design sensibilities kick in, and so even these small scripts end up reasonably well structured (at least after a while).
+
+I do think I will end up moving most of these functions into a library, but for ad-hoc sharing, this technique is pretty cool.
 
 # Larger scripts
 
@@ -236,5 +240,7 @@ Enjoy.
 [8]: https://github.com/justone/bb-scripts/blob/master/README.md#set-up
 [9]: https://github.com/justone/bb-scripts/blob/master/README.md#development-workflow
 [10]: https://github.com/justone/bb-scripts/blob/master/src/lib/script/alpha.clj
+[11]: https://cpu.land/how-to-run-a-program#format-highlight-scripts
 
 [^1]: Quite a bit earlier in my career, the language would have been Perl, but that knowledge left my brain several years ago.
+[^2]: Did you know that shebangs are [a kernel feature][11]?

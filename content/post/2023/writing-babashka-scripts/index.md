@@ -100,7 +100,7 @@ Well, I recently was writing another script that had timestamp data and wanted t
   (map bbts/humanize-timestamps records))
 ```
 
-I think a side-effect of using Clojure is that all of its design sensibilities kick in, and so even these small scripts end up reasonably well structured (at least after a while).
+I think a side-effect of using Clojure is that all of its design sensibilities kick in, and so even these small scripts end up reasonably well structured (at least after a while). This means that there are functions like this that are useful to other scripts.
 
 I do think I will end up moving most of these functions into a library, but for ad-hoc sharing, this technique is pretty cool.
 

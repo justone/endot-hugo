@@ -1,6 +1,6 @@
 ---
 title: "Developing Babashka Scripts"
-date: 2023-11-07T17:55:14-07:00
+date: 2023-11-11T17:55:14-07:00
 slug: writing-babashka-scripts
 tags:
 - programming
@@ -8,9 +8,13 @@ tags:
 - babashka
 ---
 
-Babashka is amazing. It's replaced 99.999% of my Bash usage. The only time I reach for Bash these days is when I need a few commands (sometimes lightly templated) to run in a row and I don't want to leverage my history too much. Everything else is Babashka.
+Babashka is amazing. It's replaced Bash for 99.999% of my scripting needs. I thought it might be useful to describe my approach to writing Babashka scripts and compare it to how I used to write Bash.
 
-I thought it might be useful to describe my approach to writing Babashka scripts and compare it to how I used to write Bash.
+<!--more-->
+
+# Welcome
+
+If you aren't familiar with [Babashka][12], it's a fast-starting Clojure runtime. Most Clojure code runs on the JVM, which has great power but not the fastest startup, meaning it isn't a great fit for command line scripting. Babashka bridges this gap by leveraging [GraalVM][14] to make a Clojure-compatible runtime that starts instantly. Check out the [Babashka Book][13] for more information.
 
 # Bashing scripts
 
@@ -241,6 +245,9 @@ Enjoy.
 [9]: https://github.com/justone/bb-scripts/blob/master/README.md#development-workflow
 [10]: https://github.com/justone/bb-scripts/blob/master/src/lib/script/alpha.clj
 [11]: https://cpu.land/how-to-run-a-program#format-highlight-scripts
+[12]: https://babashka.org/
+[13]: https://book.babashka.org/
+[14]: https://www.graalvm.org/
 
 [^1]: Quite a bit earlier in my career, the language would have been Perl, but that knowledge left my brain several years ago.
 [^2]: Did you know that shebangs are [a kernel feature][11]?

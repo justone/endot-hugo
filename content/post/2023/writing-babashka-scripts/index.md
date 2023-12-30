@@ -1,6 +1,6 @@
 ---
 title: "Developing Babashka Scripts"
-date: 2023-11-11T17:55:14-07:00
+date: 2023-12-30T17:55:14-07:00
 slug: writing-babashka-scripts
 tags:
 - programming
@@ -15,6 +15,8 @@ Babashka is amazing. It's replaced Bash for 99.999% of my scripting needs. I tho
 # Welcome
 
 If you aren't familiar with [Babashka][12], it's a fast-starting Clojure runtime. Most Clojure code runs on the JVM, which has great power but not the fastest startup, meaning it isn't a great fit for command line scripting. Babashka bridges this gap by leveraging [GraalVM][14] to make a Clojure-compatible runtime that starts instantly. Check out the [Babashka Book][13] for more information.
+
+In this post, I'll start off by showing why Bash scripting annoyed me and how I tried to bring Clojure into my scripting before finding (and loving) Babashka. Then I'll walk through a couple ways I approach writing scripts and then finish off with a neat trick that combines power with ease of use.
 
 # Bashing scripts
 
@@ -77,11 +79,11 @@ The first is to use `babashka.deps`, like this:
 (deps/add-deps '{:deps {org.clj-commons/pretty {:mvn/version "2.2"}}})'
 ```
 
-It's rather amazing that you can add any compatible library in-line like this. It's out of the realm of imagination in the old Bashiverse.
+It's rather amazing that you can add any compatible library in-line like this. It's out of the realm of imagination in the old Bashiverse (or even Python, Ruby, or my old pal Perl).
 
 The second way I've reached out for other functionality is by including other Babashka scripts. This is one reason why I have a namespace declaration at the top (the other being that it's tidier).
 
-For instance, I have a script called [`bbts`][5] that will take incoming EDN data and look for any map key of timestamp and convert its value into a human readable date/time. This is super useful as my brain is not able to parse milliseconds directly.
+For instance, I have a script called [`bbts`][5] that will take incoming EDN data and look for any map key named timestamp and convert its value into a human readable date/time. This is super useful as my brain is not able to parse milliseconds directly.
 
 ```shell
 $ cat sample.edn
@@ -96,7 +98,9 @@ $ cat sample.edn | bbts
 Well, I recently was writing another script that had timestamp data and wanted to use `bbts`'s `humanize-timestamps` function. So I added this snippet:
 
 ```clojure
-(load-file (-> *file* fs/real-path fs/parent (fs/path "bbts") fs/file))
+(require '[babashka.fs :as fs])
+
+(-> "bbts" fs/which fs/file load-file)
 (require '[bbts])
 
 (comment

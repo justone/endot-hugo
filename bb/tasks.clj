@@ -36,6 +36,8 @@
 (defn deploy
   "Build and push site. Provide a location as the lone argument."
   [location]
-  (let [{:keys [site remote]} (get-in locations [:deploy (keyword location)])]
-    (build "--baseURL" site)
+  (let [{:keys [site remote include-future]} (get-in locations [:deploy (keyword location)])]
+    (if include-future
+      (build "--baseURL" site "-F")
+      (build "--baseURL" site))
     (process/shell "rsync -var --delete public/" remote)))
